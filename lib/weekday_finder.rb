@@ -1,7 +1,7 @@
 class Time
   define_method(:weekday_finder) do
-    date = Time.new()
+    # date = Time.new()
 
-    date.strftime("%A")
+    self.strftime("%A")
   end
 end
